@@ -1,0 +1,16 @@
+Metot (Fonksiyon) Nedir?
+Bir metot veya fonksiyon, belirli bir görevi yerine getiren, adlandırılmış ve genellikle bir girdi alarak bir çıktı üreten bir kod bloğudur. Programlama dillerinde, metotlar belirli bir işlemi tekrar kullanmak için yazılır. Bu, kodun tekrarını engeller ve programın düzenli olmasını sağlar. Metotlar, genellikle bir ad, parametreler ve bir dönüş değeri içerir.
+
+Metot (Fonksiyon) Özellikleri:
+Girdi (Parametre): Metotlar genellikle bir veya birden fazla parametre alır. Bu parametreler, metodun çalışması için gerekli verileri sağlar.
+
+Dönüş Değeri: Metodun çalışması sonucunda genellikle bir değer döndürülür. Bu, metot sonucunun başka bir işlemde kullanılmasını sağlar. Örneğin, bir hesaplama metodu, sonucu döndürebilir.
+
+Adlandırılmış Kod Bloğu: Metotlar bir adı temsil eder. Bu ad, kodun okunabilirliğini artırır ve metodu tekrar tekrar kullanmayı sağlar.
+
+Tekrar Kullanılabilirlik: Bir metot, bir kez yazılıp, programın herhangi bir yerinde tekrar tekrar çağrılabilir.
+
+Metotların Kullanım Amacı:
+Modülerlik: Programın büyük parçalarını daha küçük, yönetilebilir parçalara böler.
+Tekrar Kullanılabilirlik: Aynı kodu tekrar yazmak yerine, metotlar kullanılabilir.
+Bakım Kolaylığı: Kodun bakımını ve hata düzeltmesini kolaylaştırır.
