@@ -1,0 +1,5 @@
+Geriye Değer Döndüren Metot:
+Bu metotlar, işlevlerini tamamladıktan sonra bir değer döndürürler. Döndürülen değer, metodu çağıran koda geri gönderilir ve o değeri başka işlemlerde kullanabilirsiniz. Örneğin, bir hesaplama yapıp sonucu döndüren bir metot, işlemin sonucunu kullanmanızı sağlar.
+
+Void Metot:
+Void metotlar, işlevlerini tamamladıktan sonra hiçbir değer döndürmezler. Bu metotlar genellikle ekran çıktısı vermek, bir dosya işlemi yapmak veya veri güncellemek gibi yan etkiler yaratır. Ancak geriye bir değer dönmedikleri için bu metotların sonuçları başka bir işlemde kullanılmaz.
