@@ -1,0 +1,29 @@
+Metotları Neden Kullanırız?
+
+Metotlar, yazılım geliştirmede önemli bir yer tutar çünkü birçok avantaj ve kullanım amacına hizmet ederler. İşte metotları kullanmamızın başlıca nedenleri:
+
+1. Kodun Tekrarını Engellemek
+Metotlar, bir işlevin tekrar tekrar kullanılmasını sağlar. Aynı kodu farklı yerlerde yazmak yerine, bu kodu bir metot içinde tanımlayarak, metodu farklı yerlerden çağırabiliriz. Bu, yazılımın daha kısa ve yönetilebilir olmasını sağlar.
+
+Örneğin, bir hesaplama işlemini bir metot içinde tanımlayıp, farklı yerlerde o metodu çağırarak aynı işlemi birden fazla kez yapabiliriz.
+
+2. Kodun Düzenli ve Okunabilir Olmasını Sağlamak
+Bir program büyük ve karmaşık hale geldiğinde, kodu küçük parçalara ayırmak, okunabilirliği artırır. Metotlar, kodun işlevselliğini düzenli bir şekilde ayırmamıza yardımcı olur. Bu, hem geliştiricinin hem de başkalarının kodu anlamasını kolaylaştırır.
+
+3. Bakım Kolaylığı
+Kodun bakımını ve hata düzeltmesini kolaylaştırır. Eğer bir işlevde bir değişiklik yapılması gerekiyorsa, bu değişiklik sadece metot içinde yapılır. Kodun her yerinde aynı değişikliği yapmamıza gerek kalmaz, sadece bir yerde yapılan değişiklik tüm çağırılarda etkili olur.
+
+4. Modülerlik ve Organizasyon
+Metotlar, yazılımın modüler olmasını sağlar. Bir programı daha küçük, bağımsız parçalara bölmek, uygulamanın test edilmesini, bakımını ve genişletilmesini kolaylaştırır. Örneğin, her bir metot, belirli bir görevi yerine getiren bağımsız bir modül gibi düşünülebilir.
+
+5. Tekrar Kullanılabilirlik
+Metotlar yazıldıktan sonra bir kez tanımlanır ve programın herhangi bir yerinde kullanılabilir. Bu, aynı kodu birden fazla kez yazmamıza gerek kalmadan o işlemi farklı yerlerde tekrarlamamıza olanak tanır.
+
+6. Test Edilebilirlik
+Metotlar, yazılımın test edilmesini kolaylaştırır. Her metot, belirli bir işlevi yerine getirdiğinden, bu işlevi test etmek için metodu izole edebiliriz. Bu, hata ayıklamayı ve kodu test etmeyi basitleştirir.
+
+7. Karmaşıklığı Azaltmak
+Büyük ve karmaşık bir programı küçük, daha yönetilebilir parçalara ayırmak, programın daha anlaşılır olmasını sağlar. Her metot, sadece bir işlevi yerine getirdiği için programın mantığı daha net hale gelir.
+
+8. Kodun Geliştirilebilir Olmasını Sağlamak
+Metotlar, yazılımcılara daha esnek bir kod yapısı sunar. Yeni işlevler eklemek veya mevcut işlevleri değiştirmek metotlar sayesinde daha kolaydır. Kodun herhangi bir parçasını değiştirmek, genellikle yalnızca ilgili metodu değiştirmekle sınırlıdır.
