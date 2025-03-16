@@ -1,0 +1,58 @@
+1) C# Programlama Dili Nedir? Hangi Alanlarda Kullanılır?
+C# (C Sharp), Microsoft tarafından geliştirilen, modern, nesne yönelimli (object-oriented) ve genel amaçlı bir programlama dilidir. C#, .NET framework'ü ile birlikte kullanılır ve özellikle Windows platformunda uygulama geliştirmek için yaygın olarak tercih edilir. C#, Java ve C++ gibi dillerden esinlenmiştir ve bu dillere benzer bir sözdizimine sahiptir.
+
+Kullanım Alanları:
+
+Windows Uygulamaları: C#, Windows Forms, WPF (Windows Presentation Foundation) ve UWP (Universal Windows Platform) gibi teknolojilerle masaüstü uygulamaları geliştirmek için kullanılır.
+
+Web Uygulamaları: ASP.NET ile web uygulamaları ve API'ler geliştirilebilir.
+
+Oyun Geliştirme: Unity oyun motoru ile C# kullanılarak 2D ve 3D oyunlar geliştirilebilir.
+
+Mobil Uygulamalar: Xamarin ile cross-platform mobil uygulamalar geliştirilebilir.
+
+Veritabanı Uygulamaları: Entity Framework gibi ORM (Object-Relational Mapping) araçları ile veritabanı uygulamaları geliştirilebilir.
+
+Bulut ve Mikroservisler: Azure gibi bulut platformlarında mikroservisler ve bulut tabanlı uygulamalar geliştirilebilir.
+
+2) Bir Programın Çalışması İçin Temel Bileşenler Nelerdir?
+Bir programın çalışması için aşağıdaki temel bileşenler gereklidir:
+
+Derleyici (Compiler): Yazılan kaynak kodunu makine diline (binary) çeviren yazılımdır. C# için csc.exe (C# Compiler) kullanılır.
+
+RAM (Random Access Memory): Programın çalışması sırasında geçici verileri depolamak için kullanılır. Programın hızlı çalışmasını sağlar.
+
+CPU (Central Processing Unit): Programın komutlarını işler ve hesaplamaları yapar. Programın çalışması için gereken işlem gücünü sağlar.
+
+İşletim Sistemi (Operating System): Programın donanım ile iletişim kurmasını sağlar ve kaynakları yönetir.
+
+Giriş/Çıkış Birimleri (Input/Output Devices): Klavye, fare, ekran gibi cihazlar programın kullanıcı ile etkileşim kurmasını sağlar.
+
+Depolama (Storage): Programın kaynak kodunu ve çalıştırılabilir dosyalarını saklamak için kullanılır (örneğin, HDD, SSD).
+
+3) Kullanıcıdan Adını Alıp Ekrana Yazdıran Basit Bir C# Programı
+Aşağıda, kullanıcıdan adını alıp ekrana yazdıran basit bir C# programı bulunmaktadır:
+
+csharp
+Copy
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Kullanıcıdan adını al
+        Console.Write("Adınızı girin: ");
+        string ad = Console.ReadLine();
+
+        // Kullanıcının adını ekrana yazdır
+        Console.WriteLine("Merhaba, " + ad + "!");
+    }
+}
+Programın Açıklaması:
+
+Console.Write("Adınızı girin: "); komutu, kullanıcıdan adını girmesini ister.
+
+string ad = Console.ReadLine(); komutu, kullanıcının girdiği metni ad değişkenine atar.
+
+Console.WriteLine("Merhaba, " + ad + "!"); komutu, kullanıcının adını ekrana yazdırır.
