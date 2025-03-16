@@ -1,0 +1,11 @@
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\bin\Debug\net9.0\ProgrammingLanguagesManagement.Core.deps.json
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\bin\Debug\net9.0\ProgrammingLanguagesManagement.Core.dll
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\bin\Debug\net9.0\ProgrammingLanguagesManagement.Core.pdb
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ProgrammingLanguagesManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ProgrammingLanguagesManagement.Core.AssemblyInfoInputs.cache
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ProgrammingLanguagesManagement.Core.AssemblyInfo.cs
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ProgrammingLanguagesManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ProgrammingLanguagesManagement.Core.dll
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\refint\ProgrammingLanguagesManagement.Core.dll
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ProgrammingLanguagesManagement.Core.pdb
+C:\Users\batuhan\Desktop\odev\ProgrammingLanguagesManagement.Core\obj\Debug\net9.0\ref\ProgrammingLanguagesManagement.Core.dll
