@@ -1,0 +1,93 @@
+1) C#'ta Kullanılan Temel Veri Tipleri
+C#'ta temel veri tipleri aşağıdaki gibidir:
+
+Tam Sayı Tipleri:
+
+int: 32-bit tam sayı. Aralık: -2,147,483,648 ile 2,147,483,647.
+
+long: 64-bit tam sayı. Aralık: -9,223,372,036,854,775,808 ile 9,223,372,036,854,775,807.
+
+short: 16-bit tam sayı. Aralık: -32,768 ile 32,767.
+
+byte: 8-bit işaretsiz tam sayı. Aralık: 0 ile 255.
+
+Ondalıklı Sayı Tipleri:
+
+float: 32-bit tek duyarlıklı kayan noktalı sayı.
+
+double: 64-bit çift duyarlıklı kayan noktalı sayı.
+
+decimal: 128-bit ondalıklı sayı. Finansal hesaplamalar için uygundur.
+
+Metin Tipleri:
+
+string: Unicode karakter dizisi. Metin verilerini saklamak için kullanılır.
+
+char: 16-bit Unicode karakter.
+
+Mantıksal Tip:
+
+bool: True veya False değerlerini alır. Koşul ifadelerinde kullanılır.
+
+Diğer Tipler:
+
+object: Tüm tiplerin temel sınıfıdır.
+
+dynamic: Derleme zamanında tip kontrolü yapılmaz, çalışma zamanında belirlenir.
+
+2) Değişkenlerin Bellek Kullanımı Karşılaştırması
+Aşağıdaki değişkenlerin bellek kullanımı:
+
+int x = 5;
+
+Bellek Kullanımı: 4 byte (32 bit).
+
+Açıklama: int veri tipi 32 bitlik bir tam sayıdır.
+
+double y = 5.2;
+
+Bellek Kullanımı: 8 byte (64 bit).
+
+Açıklama: double veri tipi 64 bitlik bir kayan noktalı sayıdır.
+
+string name = "Mehmet";
+
+Bellek Kullanımı: Değişken. Her karakter 2 byte (Unicode) olarak saklanır.
+
+Açıklama: string veri tipi dinamik olarak bellek kullanır. "Mehmet" kelimesi 6 karakterden oluştuğu için en az 12 byte bellek kullanır (6 karakter * 2 byte). Ayrıca string tipi, metnin uzunluğuna ve .NET'in string yönetim mekanizmasına bağlı olarak ek bellek kullanabilir.
+
+3) Kullanıcıdan İki Sayı Alıp Toplamını Ekrana Yazdıran Program
+Aşağıda, kullanıcıdan iki sayı alıp toplamını ekrana yazdıran basit bir C# programı bulunmaktadır:
+
+csharp
+Copy
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Kullanıcıdan ilk sayıyı al
+        Console.Write("Birinci sayıyı girin: ");
+        int sayi1 = Convert.ToInt32(Console.ReadLine());
+
+        // Kullanıcıdan ikinci sayıyı al
+        Console.Write("İkinci sayıyı girin: ");
+        int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+        // Toplamı hesapla
+        int toplam = sayi1 + sayi2;
+
+        // Sonucu ekrana yazdır
+        Console.WriteLine("Toplam: " + toplam);
+    }
+}
+Programın Açıklaması:
+
+Console.Write ve Console.ReadLine ile kullanıcıdan iki sayı alınır.
+
+Convert.ToInt32 ile kullanıcının girdiği string değerler tam sayıya (int) dönüştürülür.
+
+İki sayı toplanır ve sonuç toplam değişkenine atanır.
+
+Console.WriteLine ile toplam ekrana yazdırılır.
