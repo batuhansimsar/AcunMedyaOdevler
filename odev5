@@ -1,0 +1,88 @@
+1) Koşullu İfadeler (if-else) Ne İşe Yarar? Gerçek Hayattan Örnek
+Koşullu İfadeler (if-else):
+Koşullu ifadeler, belirli bir koşulun doğru (true) veya yanlış (false) olmasına göre farklı kod bloklarının çalıştırılmasını sağlar. Bu, programın akışını kontrol etmek ve karar vermek için kullanılır.
+
+Gerçek Hayattan Örnek:
+Bir otomatik kapı sistemi düşünelim. Kapının açılması için bir sensör, önünde birinin olup olmadığını kontrol eder. Eğer sensör birini algılarsa (if koşulu doğruysa), kapı açılır. Eğer kimse yoksa (else durumu), kapı kapalı kalır.
+
+2) Kullanıcıdan Bir Sayı Alıp Tek mi Çift mi Olduğunu Bulan C# Programı
+Aşağıda, kullanıcıdan bir sayı alıp bu sayının tek mi çift mi olduğunu bulan bir C# programı bulunmaktadır:
+
+csharp
+Copy
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Kullanıcıdan bir sayı al
+        Console.Write("Bir sayı girin: ");
+        int sayi = Convert.ToInt32(Console.ReadLine());
+
+        // Sayının tek mi çift mi olduğunu kontrol et
+        if (sayi % 2 == 0)
+        {
+            Console.WriteLine(sayi + " çift bir sayıdır.");
+        }
+        else
+        {
+            Console.WriteLine(sayi + " tek bir sayıdır.");
+        }
+    }
+}
+Programın Açıklaması:
+
+Console.ReadLine() ile kullanıcıdan bir sayı alınır ve Convert.ToInt32() ile tam sayıya dönüştürülür.
+
+if (sayi % 2 == 0) koşulu ile sayının çift olup olmadığı kontrol edilir.
+
+Eğer sayı 2'ye tam bölünüyorsa (sayi % 2 == 0), çift sayıdır.
+
+Aksi takdirde, tek sayıdır.
+
+Sonuç ekrana yazdırılır.
+
+3) Girilen Bir Sayının Pozitif, Negatif veya Sıfır Olup Olmadığını Belirleyen Program
+Aşağıda, kullanıcıdan bir sayı alıp bu sayının pozitif, negatif veya sıfır olup olmadığını belirleyen bir C# programı bulunmaktadır:
+
+csharp
+Copy
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        // Kullanıcıdan bir sayı al
+        Console.Write("Bir sayı girin: ");
+        int sayi = Convert.ToInt32(Console.ReadLine());
+
+        // Sayının pozitif, negatif veya sıfır olup olmadığını kontrol et
+        if (sayi > 0)
+        {
+            Console.WriteLine(sayi + " pozitif bir sayıdır.");
+        }
+        else if (sayi < 0)
+        {
+            Console.WriteLine(sayi + " negatif bir sayıdır.");
+        }
+        else
+        {
+            Console.WriteLine("Girilen sayı sıfırdır.");
+        }
+    }
+}
+Programın Açıklaması:
+
+Console.ReadLine() ile kullanıcıdan bir sayı alınır ve Convert.ToInt32() ile tam sayıya dönüştürülür.
+
+if-else if-else yapısı kullanılarak sayının durumu kontrol edilir:
+
+Eğer sayı 0'dan büyükse (sayi > 0), pozitif sayıdır.
+
+Eğer sayı 0'dan küçükse (sayi < 0), negatif sayıdır.
+
+Eğer sayı 0'a eşitse (else durumu), sıfırdır.
+
+Sonuç ekrana yazdırılır.
